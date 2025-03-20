@@ -21,7 +21,7 @@ Ensure Python is installed on your system. Then, install the necessary dependenc
 
 2️⃣ Set Up the Streamlit App
 
-Create a new Python file (app.py).
+Create a new Python file (vbot.py).
 
 Import essential libraries: Streamlit, PIL, Transformers, Torch.
 
@@ -54,6 +54,10 @@ Display the generated answer(s) in a readable format.
 6️⃣ Run the App Locally
 
 Open a terminal, navigate to the project folder, and run:
+
+Run the following command:
+
+# streamlit run vbot.py
 
 The app will open in a web browser, allowing users to interact with it.
 

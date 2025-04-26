@@ -5,9 +5,7 @@ from transformers import BlipProcessor, BlipForQuestionAnswering
 import torch
 
 # Load the processor and model
-processor = BlipProcessor.from_pretrained("Salesforce/blip-vqa-base")
-model = BlipForQuestionAnswering.from_pretrained("Salesforce/blip-vqa-base").to("cuda" if torch.cuda.is_available() else "cpu")
-
+.............
 # Streamlit app
 st.title("Visual Question Answering")
 
